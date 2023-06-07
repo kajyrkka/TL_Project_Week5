@@ -11,14 +11,14 @@ repositorystä. Opetuksen tuloksena on siis keskipisteet.h tiedosto, missä on c
 helposti incluudattava 2 uloitteisen taulukon alustus = opetetut keskipisteet alustettuna. Esim
 seuraavaan tyyliin:
 
-int CP[6][3]={
-	           {1,0,0},  // keskipiste 1, missä x-akselilla pieni arvo, y ja z akseleilla kiihtyvyys 0
-			   {2,0,0},  // keskipiste 2, missä x-akselilla suuri arvo, y ja z akseleilla kiihtyvyys 0
-			   {0,1,0},  // jne... CP = CenterPoint
-			   {0,2,0},
-			   {0,0,1},
-			   {0,0,2}
-};
+int CP[6][3]={ <br />
+	           {1,0,0},  // keskipiste 1, missä x-akselilla pieni arvo, y ja z akseleilla kiihtyvyys 0 <br />
+	           {2,0,0},  // keskipiste 2, missä x-akselilla suuri arvo, y ja z akseleilla kiihtyvyys 0 <br />
+	           {0,1,0},  // jne... CP = CenterPoint <br />
+	           {0,2,0}, <br />
+	           {0,0,1}, <br />
+	           {0,0,2}  <br />
+};<br />
 
 
 # Viikon ylimääräinen tavoite = Opeta Google Colabin avulla neuroverkkoluokittelija.
