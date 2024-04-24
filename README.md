@@ -1,6 +1,6 @@
 # TL_Project_Week5
 
-## 0. Scrum tiimin (= 6 työparia) 
+## 0. Ohjeet Scrum tiimille (= 6 työparia) 
       Viikon vastuullinen Srum mananageripari pitää daily palaverit
 	  ma-to päivinä klo 9.00 alkaen. Scum manageripari lähettää sähköpostiraportin daily palaverista
 	  (pohja löytyy Moodlesta) molemmille projektia ohjaaville opettajille päivittäin.
