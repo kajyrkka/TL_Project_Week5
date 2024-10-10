@@ -1,23 +1,20 @@
 # TL_Project_Week5
 
 ## 0. Ohjeet Scrum tiimille (= 6 työparia) 
-      Viikon vastuullinen Srum mananageripari pitää daily palaverit
-	  ma-to päivinä klo 9.00 alkaen. Scum manageripari lähettää sähköpostiraportin daily palaverista
-	  (pohja löytyy Moodlesta) molemmille projektia ohjaaville opettajille päivittäin.
+	  Viikon vastuullinen työpari pitää daily palaverit keskiviikkoisin ja torstaisin.
+	  Scrum-tiimin discord kanavalle raportoidaan daily palaverin tulokset (ketkä paikalla, missä
+	  kukin työpari on menossa ja mahdolliset ongelmat). 
 	  
-	  Perjantaisin viikon vastuullinen Srum manageripari dokumentoi kunkin työparin (6 työparia) viikon
-	  tulokset sprint review dokumenttiin (pohja löytyy Moodlesta) ja tuo dokumentti lähetetäänkin
-	  myös projektia ohjaaville opettajille perjantaiaamulla ennen opettajan viikon katselmointi-
-	  palaveria, missä vaihdetaan myös vastuullinen Srum manageripari seuraavalle viikolle.
+	  Viikon vastuullinen työpari järjestää perjantaisin sprint review palaverin Scrum tiimille
+	  ja koostaa Scrum-tiimin discord kanavalle raportin viikon tuloksista kunkin työparin osalta.
+	  Raportissa kerrotaan myös mikä on seuraavan viikon vastuullinen pari.	  
 	  
 	  Tutustukaa alla oleviin viikon tehtäviin ja tehkää githubin projektin Kanban tauluun 
 	  suunnitelma, minkälaisissa stepeissä aiotte viikon tehtävät tehdä ja testata. Esimerkiksi 
 	  opetusalgoritmi K-means luokittelijalle -tehtävä voi jakautua useisiin alitehtäviin. Tällaisia
 	  "alitehtäviä" voisivat olla esimerkiksi 1) python aliohjelma, jolla saadaan laskettua kahden
 	  3D avaruuden (x,y,z) pisteiden välinen etäisyys. 2) python aliohjelma, jolla saadaan tulostettua
-	  kuusi opetettua keskipistettä (x,y,z) C-kielen mukaisen keskipisteet.h tiedostoon, joka on sitten
-	  ensi viikon tehtävässä helppo incluudata nrf5340DK ohjelmaan. Ja paljon muita pieniä aliohjelmia,
-	  joista sitten saadaan hallitusti koottua opetusalgoritmi K-means luokittelijalle.
+	  kuusi opetettua keskipistettä (x,y,z) C-kielen mukaisen keskipisteet.h tiedostoon.
 
 ## 1 Viikon perustavoite = Toteuta Pythonilla opetusalgoritmi K-means luokittelijalle.
 
@@ -43,9 +40,8 @@ int CP[6][3]={ <br />
 ## 2 Viikon ylimääräinen tavoite = Opeta Google Colabin avulla neuroverkkoluokittelija.
 
 Suunnittele neuroverkkoluokittelijan rakenne, joka ottaan inputtina x,y,z arvot ja luokittelee
-inputin 6:een luokkaan. Ei kannata tehdä neuroverkosta liian monimutkaista (korkeintaan yksi hidden layer
-inputin ja output layerin väliin), koska opetettu algoritmi pitää osata vielä toteutta c:llä
-viikolla 6 ylimääräisenä tehtävän.
+inputin 6:een luokkaan. Ei kannata tehdä neuroverkosta liian monimutkaista, koska opetettu algoritmi
+pitää osata vielä toteutta c:llä viikolla 6 ylimääräisenä tehtävänä.
 
 Lähde liikkeelle esim https://keras.io/examples/vision/mnist_convnet/ esimerkistä ja opeta suunnittelemasi
 neuroverkko omalla datalla (x,y,z + suunta). 
