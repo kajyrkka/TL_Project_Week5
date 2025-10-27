@@ -44,14 +44,15 @@ int CP[6][3] = {
 };
 💡 Tämä tiedosto toimii myöhemmin mikrokontrolleriohjelmassa valmiina alustustaulukona.
 
-##2. Viikon ylimääräiset tehtävät
-1️⃣ Opeta Google Colabissa konvoluutioneuroverkko (CNN)
-Vaihe 1 – Datan valmistelu
+# 🧠 Viikon 5 – Lisätehtävät (valinnaiset), Opeta Google Colabissa konvoluutioneuroverkko (CNN)
+### 1️⃣ Vaihe 1 – Datan valmistelu
+
 Tuo aiemmin keräämäsi 1 sekunnin mittaiset X, Y, Z -datan ja suuntatiedon Google Colabiin.
 
 Järjestä data omiin hakemistoihinsa luokkien (labelien) perusteella.
 
-Vaihe 2 – Datasetin muodostus
+### 2️⃣ Vaihe 2 – Datasetin muodostus
+
 Muodosta opetus-, validointi- ja testidatasetit seuraamalla TensorFlow Simple Audio -mallia:
 🔗 https://www.tensorflow.org/tutorials/audio/simple_audio
 
@@ -59,12 +60,14 @@ Muunna sekunnin mittaiset signaalit spektrogrammikuviksi, kuten Simple Audio -ma
 
 Eri luokkien (labelien) tunnistus perustuu näihin 2D-spektrogrammikuviin.
 
-Vaihe 3 – CNN:n opetus
+### 3️⃣ Vaihe 3 – CNN:n opetus
+
 Opeta konvoluutioneuroverkko (CNN) spektrogrammikuvien perusteella.
 
 Pyri minimoimaan mallin parametrien määrä, jotta malli voidaan toteuttaa myöhemmin NRF5340DK-mikrokontrollerissa.
 
-Vaihe 4 – Mallin arviointi ja tallennus
+### 4️⃣ Vaihe 4 – Mallin arviointi ja tallennus
+
 Laske confusion matrix Simple Audio -mallin mukaisesti.
 
 Tallenna opettamasi malli myöhempää käyttöä varten.
