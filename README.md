@@ -44,7 +44,8 @@ Esimerkki rakenteesta:
 </pre>
 💡 Tämä tiedosto toimii myöhemmin mikrokontrolleriohjelmassa valmiina alustustaulukona.
 
-# 🧠 Viikon 5 – Lisätehtävät (valinnaiset), Opeta Google Colabissa konvoluutioneuroverkko (CNN)
+# 🧠 Viikon 5 – Lisätehtävät (valinnaiset)
+## Opeta Google Colabissa konvoluutioneuroverkko (CNN)
 ### 1️⃣ Vaihe 1 – Datan valmistelu
 
 Tuo aiemmin keräämäsi 1 sekunnin mittaiset X, Y, Z -datan ja suuntatiedon Google Colabiin.
