@@ -33,7 +33,7 @@ Tehtävä on kuvattu tarkemmin tiedostossa **"Viikon 5 tehtävät.ppt"**, joka l
 Opetuksen tuloksena syntyy tiedosto **`keskipisteet.h`**, joka sisältää C-kielisen taulukon opetetuista keskipisteistä.  
 
 Esimerkki rakenteesta:
-<pre> ```c int CP[6][3] = {
+<pre> int CP[6][3] = {
     {1, 0, 0},  // Keskipiste 1: x-akselilla pieni arvo
     {2, 0, 0},  // Keskipiste 2: x-akselilla suuri arvo
     {0, 1, 0},  // Keskipiste 3
