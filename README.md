@@ -33,7 +33,7 @@ Tehtävä on kuvattu tarkemmin tiedostossa **"Viikon 5 tehtävät.ppt"**, joka l
 Opetuksen tuloksena syntyy tiedosto **`keskipisteet.h`**, joka sisältää C-kielisen taulukon opetetuista keskipisteistä.  
 
 Esimerkki rakenteesta:
-
+<pre> ```c
 int CP[6][3] = {
     {1, 0, 0},  // Keskipiste 1: x-akselilla pieni arvo
     {2, 0, 0},  // Keskipiste 2: x-akselilla suuri arvo
@@ -42,6 +42,7 @@ int CP[6][3] = {
     {0, 0, 1},  // Keskipiste 5
     {0, 0, 2}   // Keskipiste 6
 };
+</pre>
 💡 Tämä tiedosto toimii myöhemmin mikrokontrolleriohjelmassa valmiina alustustaulukona.
 
 # 🧠 Viikon 5 – Lisätehtävät (valinnaiset), Opeta Google Colabissa konvoluutioneuroverkko (CNN)
