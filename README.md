@@ -33,7 +33,7 @@ Esimerkki rakenteesta:
 </pre>
 
 
-# 🧠 Viikon 5 – lisätavoite (arvosanat max 4-5)
+# Viikon 5 – lisätavoite (arvosanat max 4-5)
 
 ## Opeta Google Colabissa konvoluutioneuroverkko (CNN)
 ### Vaihe 1 – Datan valmistelu
